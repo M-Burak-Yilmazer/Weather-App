@@ -1,7 +1,5 @@
-import './style.scss'
-import javascriptLogo from './javascript.svg'
+import "./style.scss";
+import { getCity } from "./public/getCity";
 
 
-document.querySelector('#app').innerHTML = "Hello"
-
-
+getCity();
